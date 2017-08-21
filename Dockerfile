@@ -4,7 +4,7 @@ FROM ubuntu:16.04
 MAINTAINER "Omnious dev. team" <dev@omnious.com>
 
 RUN apt-get update
-RUN apt-get install -y wget zip
+RUN apt-get install -y wget zip git
 
 ENV VERSION 3.4.0
 
